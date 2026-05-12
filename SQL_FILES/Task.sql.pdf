@@ -1,0 +1,7 @@
+create task load_sales_task 
+SCHEDULE = '5 minute'
+AS
+copy into raw.sales 
+from @sales_stage/incoming/
+FILE_FORMAT = (FORMAT_NAME = 'csv_format')
+ON_ERROR = CONTINUE;
