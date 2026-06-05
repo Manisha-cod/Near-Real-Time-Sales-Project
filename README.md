@@ -1,5 +1,5 @@
-# Snowflake Sales Data Pipeline Project
-Near-Real-time sales data pipeline using Snowflake with batch (COPY INTO) and Snowpipe ingestion.
+# Snowflake-Sales-Data-Pipeline-Project
+Snowflake-Sales-Data-Pipeline-Project using Snowflake with batch (COPY INTO) and Snowpipe ingestion.
 
 ## 📌 Project Overview
 This project demonstrates a near real-time sales data pipeline using Snowflake. 
