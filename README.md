@@ -36,8 +36,11 @@ project/
 
 
 Datasets/   → CSV files
+
 SQL_FILES/  → SQL scripts
+
 Docs/       → Query output screenshots
+
 README.md
 
 ---
