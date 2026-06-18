@@ -2,16 +2,8 @@
 Snowflake-Sales-Data-Pipeline-Project using Snowflake with batch (COPY INTO) and Snowpipe ingestion.
 
 ## 📌 Project Overview
-This project demonstrates a near real-time sales data pipeline using Snowflake. 
-The pipeline loads sales data from staged files into Snowflake tables using Snowpipe, Tasks, and SQL transformations.
-
-The project includes:
-- Data ingestion
-- Incremental loading
-- Data cleaning
-- Deduplication
-- Analytics queries
-- Automated data loading
+This project demonstrates an end-to-end sales data pipeline built using Snowflake. 
+It includes batch data loading using COPY INTO, near real-time ingestion using Snowpipe, SQL-based data transformation, deduplication, and sales analytics.
 
 ---
 
@@ -20,8 +12,8 @@ The project includes:
 - SQL
 - Snowpipe
 - Snowflake Tasks
-- AWS S3
 - GitHub
+- CSV Files
 
 ---
 
@@ -45,12 +37,10 @@ project/
 ---
 
 ## 🚀 Features Implemented
-- Automated data ingestion using Snowpipe
-- Incremental data loading
-- Scheduled Tasks for automation
-- Deduplication logic
-- Data transformation
-- Analytical reporting queries
+- Batch data loading using COPY INTO
+- Automated ingestion using Snowpipe
+- Data cleaning and deduplication
+- Revenue and sales analytics queries
 
 ---
 
