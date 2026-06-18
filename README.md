@@ -67,6 +67,6 @@ Added screenshots inside /Docs
 
 
 ## 🌐 GitHub Repository
-https://github.com/Manisha-cod/Snowflake-Sales-Data-Pipeline-Project/tree/main
+https://github.com/Manisha-cod/Snowflake-Sales-Data-Pipeline-Project
 
 ---
