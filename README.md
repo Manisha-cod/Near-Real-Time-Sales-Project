@@ -18,29 +18,9 @@ It includes batch data loading using COPY INTO, near real-time ingestion using S
 ---
 
 ## 📂 Project Structure
-
-project/
-│
-├── sql_files/
-│   ├── create_tables.sql
-│   ├── copy_into.sql
-│   ├── snowpipe.sql
-│   ├── tasks.sql
-│   ├── deduplication.sql
-│   ├── analytics_queries.sql
-│
-├── docs/
-│   └── project_documentation.docx
-│
-└── README.md
-
-
 Datasets/   → CSV files
-
 SQL_FILES/  → SQL scripts
-
 Docs/       → Query output screenshots
-
 README.md
 
 ---
