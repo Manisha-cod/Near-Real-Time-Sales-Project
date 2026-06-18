@@ -28,6 +28,12 @@ README.md
 
 ---
 
+## 🔄 Workflow
+
+CSV Files → Stage → Raw Table → Clean Table → Analytics Table → Insights
+
+---
+
 ## 🚀 Features Implemented
 - Batch data loading using COPY INTO
 - Automated ingestion using Snowpipe
@@ -36,20 +42,15 @@ README.md
 
 ---
 
-## 🔄 Workflow
-1. Upload sales files to AWS S3
-2. Snowpipe automatically loads data into raw tables
-3. Tasks process and transform data
-4. Cleaned data stored in final tables
-5. Analytics queries generate business insights
+## 📊 Sample Queries
+- Total Revenue
+select SUM(Total_sales)
+as TOTAL_REVENUE
+from analytics.sales_fact;
 
----
-
-## 📊 Sample Analytics
-- Total sales analysis
-- Top-selling products
-- Revenue trends
-- Customer purchase analysis
+  
+- Top-Products
+  
 
 ---
 
