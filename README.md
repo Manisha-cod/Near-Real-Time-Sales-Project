@@ -19,8 +19,11 @@ It includes batch data loading using COPY INTO, near real-time ingestion using S
 
 ## 📂 Project Structure
 Datasets/   → CSV files
+
 SQL_FILES/  → SQL scripts
+
 Docs/       → Query output screenshots
+
 README.md
 
 ---
