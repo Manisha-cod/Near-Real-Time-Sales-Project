@@ -44,21 +44,29 @@ CSV Files → Stage → Raw Table → Clean Table → Analytics Table → Insigh
 
 ## 📊 Sample Queries
 - Total Revenue
+  
 select SUM(Total_sales)
 as TOTAL_REVENUE
 from analytics.sales_fact;
 
   
 - Top-Products
-  
+
+  select 
+product_id,
+SUM(total_sales)
+AS
+REVENEU
+from analytics.sales_fact
+group by product_id
+order by REVENEU DESC;
 
 ---
+## 📸 Sample Output
+Added screenshots inside /Docs
 
-## ✅ Key Learnings
-- Near real-time data ingestion
-- Snowflake automation
-- Incremental loading concepts
-- Data warehouse design
-- Query optimization
+
+## 🌐 GitHub Repository
+https://github.com/Manisha-cod/Snowflake-Sales-Data-Pipeline-Project/tree/main
 
 ---
